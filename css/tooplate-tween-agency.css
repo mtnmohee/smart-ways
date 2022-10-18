@@ -1,11 +1,3 @@
-/* 
-
-Tooplate 2128 Tween Agency
-
-https://www.tooplate.com/view/2128-tween-agency
-
-*/
-
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
@@ -46,7 +38,6 @@ body {
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
-
 h2,
 h3,
 h4,
@@ -54,7 +45,6 @@ h5,
 h6 {
   color: var(--dark-color);
 }
-
 h1,
 h2,
 h3,
@@ -64,7 +54,6 @@ h6 {
   font-weight: var(--font-weight-bold);
   line-height: normal;
 }
-
 h1 {
   font-size: var(--h1-font-size);
 }
@@ -587,14 +576,12 @@ button:focus:not(:focus-visible) {
 .services {
   background: var(--section-bg-color);
 }
-
 .services-image {
   display: block;
   margin: auto;
   width: 250px;
   height: 250px;
 }
-
 .services-info {
   background: var(--white-color);
   position: relative;
@@ -612,24 +599,19 @@ button:focus:not(:focus-visible) {
   background: var(--footer-bg-color);
   padding-top: 50px;
 }
-
 .site-footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 .tooplate-link a {
   color: var(--white-color);
 }
-
 .footer-menu {
   padding: 0;
 }
-
 .footer-menu-item {
   display: block;
   list-style: none;
 }
-
 .footer-menu-link,
 .footer-link {
   display: inline-block;
@@ -638,23 +620,19 @@ button:focus:not(:focus-visible) {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
 .footer-menu-link:hover,
 .footer-link:hover {
   color: var(--white-color);
   text-decoration: underline;
 }
-
 .site-footer .social-icon-link,
 .site-footer .copyright-text {
   color: var(--white-color);
   font-size: var(--copyright-text-font-size);
 }
-
 .site-footer .social-icon {
   text-align: right;
 }
-
 .site-footer .copyright-text {
   font-size: var(--copyright-text-font-size);
 }
@@ -666,13 +644,11 @@ button:focus:not(:focus-visible) {
   margin: 0;
   padding: 0;
 }
-
 .social-icon li {
   list-style: none;
   display: inline-block;
   vertical-align: top;
 }
-
 .social-icon-link {
   font-size: 1rem;
   display: inline-block;
@@ -681,7 +657,6 @@ button:focus:not(:focus-visible) {
   margin-bottom: 4px;
   margin-right: 15px;
 }
-
 .social-icon-link:hover {
   color: var(--primary-color);
 }
@@ -689,7 +664,6 @@ button:focus:not(:focus-visible) {
 /* ----------------------------
 mail page 
 ---------------------------- */
-
 .mailsend {
   background-color: #e5e8e9;
   text-align: center;
@@ -709,7 +683,6 @@ mail page
 .mailsend h1 {
   font-size: 40px;
 }
-
 
 /* -------------------------------
 About page 
@@ -829,7 +802,6 @@ products page
   color: #fff;
   background-color: #5292f3;
 }
-
 .nav-pills {
   flex-basis: 25%;
 }
@@ -842,8 +814,7 @@ products page
   height: 100%;
 }
 .pro-item-des {
-  margin-top: -59px;
-  
+  margin-top: -59px; 
 }
 .pro-item-des h6 a {
   color: blue;
@@ -886,7 +857,6 @@ Products Bearings page
   width: 200px;
   height: 200px;
 }
-
 .Bearing-item-img img{
   width: 100%;
   height: 100%;
@@ -905,11 +875,9 @@ Products Bearings page
 /* -------------------------------
 Products Bearings page 
 ------------------------------- */
-
 .areation-details {
   margin-bottom: 50px;
 }
-
 .aeration-item{
   display: flex;
   flex-flow: row;
@@ -923,7 +891,6 @@ Products Bearings page
 .aeration-description p{
   font-size: 15px;
 }
-
 .aeration-item .aeration-img {
   background-color: #374E53;
   flex-basis: 40%;
@@ -960,18 +927,15 @@ projects page
   margin-bottom: 10px;
 }
 
-
 /* -------------------------------
 projects page 
 ------------------------------- */
-
 #project-sec {
   background-image: url("../images/projects/project-banner1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position:bottom;  
 }
-
 
 /* -------------------------------
 contact page 
@@ -988,7 +952,6 @@ contact page
   display:inherit
   text-align: left;
 }
-
 .contact-details {
   display: flex;
   flex-wrap: wrap;
@@ -1001,7 +964,6 @@ contact page
   align-items: center;
 }
 
-
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
@@ -1009,41 +971,32 @@ contact page
   body {
     padding-top: 80px;
   }
-
   h1 {
     font-size: 48px;
   }
-
   h2 {
     font-size: 36px;
   }
-
   h3 {
     font-size: 32px;
   }
-
   h4 {
     font-size: 28px;
   }
-
   h5 {
     font-size: 20px;
   }
-
   h6 {
     font-size: 18px;
   }
-
   .section-padding {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-
   .custom-btn {
     font-size: var(--copyright-text-font-size);
     padding: 8px 16px;
   }
-
   .navbar {
     background: var(--white-color);
     padding-top: 5px;
@@ -1055,46 +1008,37 @@ contact page
   .navbar-brandblue {
     display: block;
   }
-
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 0;
   }
-
   .navbar-brand {
     color: var(--dark-color);
   }
-
   .navbar-nav .nav-link {
     color: var(--p-color);
     padding-top: 5px;
     padding-bottom: 5px;
   }
-
   .site-footer {
     padding-top: 70px;
     padding-bottom: 50px;
   }
-
   .site-footer-bottom,
   .site-footer .social-icon {
     text-align: center;
   }
-
   #section_7 {
-    margin-top: -30px;
-    
+    margin-top: -30px; 
   }
   .location  {
     width: 100%;
   }
-  
   iframe {
     width: 100%;
     height: auto;
   }
 /* about page  */
-#About-sec {
-  
+#About-sec { 
   background-size: cover;
   background-position-y: center;
 }
@@ -1103,9 +1047,7 @@ contact page
 services page 
 -------------------- */
 #services-sec {
-  
   background-position: center;
-  
 }
  .services-contant {
  flex-direction: column;
@@ -1138,7 +1080,6 @@ Product page
   width: 100%;
   height: 100%;
 }
-
 .see-more {
   width: 100%;
   margin: 0 auto;
@@ -1151,7 +1092,6 @@ Product page
 /* ------------------
 products page 
 ------------------ */
-
 .nav-pills .pills-title{
   flex-basis: 30%;
 }
@@ -1186,29 +1126,23 @@ aeration page
   h1 {
     font-size: 36px;
   }
-
   h2 {
     font-size: 32px;
   }
-
   .paddingText {
     padding: 25px;
   }
-
   .pricing-plan {
     padding: 60px 30px 20px 30px;
   }
-
   .pricing-header {
     padding-bottom: 20px;
   }
-
   .pricing-body {
     margin-top: 30px;
     margin-right: 0;
     margin-left: 0;
   }
-
   .contact-head h1{
     font-size: 27px;
   }
@@ -1218,24 +1152,19 @@ aeration page
    flex-direction: column;
 }
 .mission {
-  
-  flex-direction: column;
- 
+  flex-direction: column; 
 }
 
 /* ------------------
 services page 
 ------------------ */
 .serv-details {
-  
   flex-direction: column;
- 
 }
 
 /* ------------------
 products page 
 ------------------ */
-
 .nav-pills .pills-title{
   flex-basis: 30%;
 }
@@ -1249,10 +1178,8 @@ products page
   .pricing-price {
     margin-bottom: 0;
   }
-
   .pricing-price {
     max-width: 45px;
     margin-right: auto;
   }
-
 }
