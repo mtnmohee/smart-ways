@@ -796,7 +796,7 @@ products page
 }
 .nav-pills .pills-title{
   border-bottom: 1px solid  gray;
-  flex-basis: 20%;
+  flex-basis: 16.66%;
 }
 .nav-pills .nav-link:hover {
   color: #fff;
@@ -1019,6 +1019,11 @@ contact page
     padding-top: 5px;
     padding-bottom: 5px;
   }
+  .swiper {
+    width: 70%;
+    height: 70%;
+}
+
   .site-footer {
     padding-top: 70px;
     padding-bottom: 50px;
@@ -1181,5 +1186,12 @@ products page
   .pricing-price {
     max-width: 45px;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .swiper {
+    width: 60%;
+    height: 60%;
   }
 }
