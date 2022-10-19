@@ -19,6 +19,13 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
     <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <link href="css/bootstrap-icons.css" rel="stylesheet" />
@@ -26,6 +33,12 @@
     <link href="css/magnific-popup.css" rel="stylesheet" />
 
     <link href="css/tooplate-tween-agency.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/project-style.css" />
 
     <script
       src="https://kit.fontawesome.com/44c971dd88.js"
@@ -69,7 +82,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link active" href="./services.html">Services</a>
+              <a class="nav-link" href="./services.html">Services</a>
             </li>
 
             <li class="nav-item">
@@ -81,7 +94,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="./partners.html">Partners</a>
+              <a class="nav-link active" href="./partners.html">Partners</a>
             </li>
 
             <li class="nav-item">
@@ -95,113 +108,59 @@
     <main>
       <section
         class="hero d-flex justify-content-center align-items-center"
-        id="services-sec"
+        id="partners-sec"
       ></section>
     </main>
 
-    <section class="services container">
-      <div class="services-contant">
-        <div class="serv-head-img">
-          <img src="./images/services/our services.jpg" alt="" />
-        </div>
-        <div class="serv-info">
-          <p>
-            Our multi-disciplined engineering team understands the complex
-            manufacturing and industrial problems our clients face. Our
-            engineering services are built on years of experience and the
-            expertise to identify and design the unique industrial engineering
-            solutions that match our client’s needs.We possess state of the art
-            technology and utilize these tools on a daily basis to solve our
-            clients most difficult challenges.Smart Ways stands out as a leader
-            amongst industrial engineering companies.
-          </p>
-        </div>
+    <div class="product-head container">
+      <h4>Our Partners</h4>
+    </div>
+
+    <section class="p-logos container">
+      <div class="partner-logo">
+        <a href="https://benshaw.com/" target="_blank">
+          <img src="images/Partners/benshaw.gif" alt="logo" />
+        </a>
       </div>
-    </section>
-    <hr />
-
-    <section class="container">
-      <div class="serv-container-head">
-        <h6>
-          We offers a varity of services that gurantees a fault-free operation
-          for our products
-        </h6>
+      <div class="partner-logo">
+        <a href="https://www.csasrl.it/en" target="_blank">
+          <img src="images/Partners/csa.png" alt="logo" />
+        </a>
       </div>
-      <div class="serv-details">
-        <div class="services-contain">
-          <div class="serv-img">
-            <img src="./images/services/shaft-alignment.jpg" alt="" />
-          </div>
-          <div class="serv-info">
-            <h4>Precision alignment</h4>
-            <p>
-              Our service engineers can determine the causes of misalignment in
-              your machinery and perform an accurate shaft alignment to prevent
-              future malfunctions. When conducting shaft alignment, we provide:
-            </p>
-            <ul>
-              <li>Inspection of machine frames according to ISO IT5</li>
-              <li>
-                Measurement for potential parallel and angular misalignment
-              </li>
-              <li>
-                Inspection and elimination of potential soft foot problems
-              </li>
-              <li>
-                Shimming or chocking of machines with high precision, stainless
-                steel machine shims or chocking solutions
-              </li>
-              <li>
-                Turning of relevant machine components to correct positions
-              </li>
-            </ul>
-            <p>
-              All our machine alignment services include a final report with
-              measurement documentation.
-            </p>
-          </div>
-        </div>
-
-        <div class="services-contain">
-          <div class="serv-img">
-            <img src="./images/services/vibration-analysis.jpg" alt="" />
-          </div>
-          <div class="serv-info">
-            <h4>Vibration analysis</h4>
-            <p>
-              Single and Multi-channel analysis of rotating equipment vibrations
-              provide extremely useful information about machine’s mechanical
-              health condition and help making critical and timely maintenance
-              decisions. Mechanical, electrical, structural, and operational
-              faults are progressing can be accurately identified and their
-              criticality determined.
-            </p>
-            <p>
-              The vibration data, downloaded to a PC, forms an invaluable
-              database on which to base maintenance decisions. We use the
-              fastest and most advanced analysers / data collectors available
-              and provide clear reports with recommendations for action.
-            </p>
-          </div>
-        </div>
-
-        <div class="services-contain">
-          <div class="serv-img">
-            <img src="images/services/installation1.jpg" alt="" />
-          </div>
-          <div class="serv-info">
-            <h4>Installation</h4>
-            <p>
-              Every person in our team is trained to be an innovator and problem
-              solver. When unexpected challenges arise, our installation
-              craftsmen possess the professionalism and experience to adapt with
-              quick, successful solutions. Our experience includes seamless
-              contracting which integrates all building construction and
-              relevant trades: electrical, plumbing, HVAC, fire protection, and
-              rigging—whatever it takes to get the job done
-            </p>
-          </div>
-        </div>
+      <div class="partner-logo">
+        <a href="https://erciyas.com/en/erciyas-steel-pipe/" target="_blank">
+          <img src="images/Partners/Erciyas.png" alt="logo" />
+        </a>
+      </div>
+      <div class="partner-logo">
+        <a href="https://www.forza.es/en" target="_blank">
+          <img src="images/Partners/forza.png" alt="logo" />
+        </a>
+      </div>
+      <div class="partner-logo">
+        <a href="https://www.skf.com/mena" target="_blank">
+          <img src="images/Partners/SKF.png" alt="logo" />
+        </a>
+      </div>
+      <div class="partner-logo">
+        <a href="https://www.water-aerator.com/en/" target="_blank">
+          <img src="images/Partners/kamps.png" alt="logo" />
+        </a>
+      </div>
+      <div class="partner-logo">
+        <a href="http://aquaaura.net/" target="_blank">
+          <img src="images/Partners/logo-aquaaura.png" alt="logo" />
+        </a>
+      </div>
+      <div class="partner-logo">
+        <a href="http://www.plarad.com/" target="_blank">
+          <img src="images/Partners/plarad.png" alt="logo" />
+        </a>
+      </div>
+      <div class="partner-logo">
+        <a href="http://www.samsunmakina.com.tr" target="_blank">
+          <img src="images/Partners/Samsun-Makina-Sanayi.jpg" alt="logo" />
+        </a>
       </div>
     </section>
 
@@ -266,7 +225,31 @@
     <script src="js/jquery.backstretch.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/magnific-popup-options.js"></script>
-    <script src="js/click-scroll.js"></script>
-    <script src="js/custom.js"></script>
+    <script defer src="js/custom.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="./js/script.js"></script>
   </body>
 </html>
